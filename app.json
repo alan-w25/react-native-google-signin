@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "react-native-google-signin",
+    "slug": "react-native-google-signin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alanwu.signinapp",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.alanwu.signinapp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0264da3d-e4eb-42c0-832e-795b4ff9dabc"
+      }
+    }
+  }
+}
